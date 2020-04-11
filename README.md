@@ -9,11 +9,11 @@ WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exc
 # Software Requirements
 * You will need jupyter notebook install in your computer
 * The following packages needs to be installed via conda or pip
-  1. numpy
-  2. pandas
-  3. requests
-  4. tweepy
-  5. json
+  - numpy
+  - pandas
+  - requests
+  - tweepy
+  - json
 * You can create a pdf files via jupyter notebook containing only the report and its following pictures
 
 # Project Specifications
@@ -26,6 +26,13 @@ Three dataset is used to analyse the WeRateDogs account
 2. image_prediction.csv has the prediction for which breed of dog is in the photo and its confidence level
 These 2 dataset above can be manually downloaded from the udacity project page
 3. twitter_additional_data.csv is to be downloaded via Twitter dev console using the python tweepy library 
+
+# Twitter API and Keys
+You need to create an twitter account if you dont have else you can create a twitter dev account and can get the following keys to download the twitter additional data
+- Consumer Key
+- Consumer Secret Key
+- Access token
+- Access secret token
 
 # Assessing Data
 Assessing is done in 2 parts. First using Visual Assessing using the Excel Spreadsheet
